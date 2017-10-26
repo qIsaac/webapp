@@ -69,7 +69,7 @@ public class SeckillController {
 
     @RequestMapping(value = "/{seckillId}/{md5}/extcution",
             method = RequestMethod.POST,
-            produces = {"application/json;charset=utd-8"})
+            produces = {"application/json;charset=utf-8"})
     @ResponseBody
     public SeckillResult<SeckillExecution> execute(@PathVariable("seckillId") Long seckillId,
                                                    @PathVariable("md5") String md5,
